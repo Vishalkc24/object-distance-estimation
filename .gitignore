@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Local model and video artifacts
+input.mp4
+output_with_depth.mp4
+*.pt
+
+# Bundled third-party source trees; install dependencies separately
+Depth-Anything-V2/
+ultralytics_repo/
+
+# Generated plots and data can be committed selectively
